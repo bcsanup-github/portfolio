@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOVER</p>
+                <h1>Hi, I'm<spam> Sanup</spam> <br> from Nepal</h1>
+            </div>
+    </div>
+    </div>
+    <!--ABOUT ME-->
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="side.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    My name is Sanup. I would like to inform you on building a professional portfolio.  I had a opportunity to build 
+a professional portfolio while I was doing my assignment.  You might ask yourself why I need to build a portfolio. There are 
+several reasons to build a portfolio.  This Portfolio will tell others that view your portfolio in the future your professional 
+story.  It is a way of you keeping up with your accomplishments.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>Study IT in Texas</li>
+                        <li><span>2021</span><br>Pass Grade 12 from pyuthan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+     <!--services-->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="service-list">
+                <div>
+                    <h2>We Design</h2>
+                    <p> Web designers are responsible for the visual aspect,<br> which includes the layout, colouring, and typography of a web page.
+                    </p>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!--CONTACT-->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>contact@example.com</p>
+                    <p>1234567890</p>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+     <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Sanup. made for assignment</p>
+        </div>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
